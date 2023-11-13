@@ -1,0 +1,17 @@
+/*footer*/
+
+.contacto {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.instagram, .whatsapp { 
+    font-size: 1.3rem;
+    background-color: palevioletred;
+    color: black;
+    padding: 1rem;
+    
+}

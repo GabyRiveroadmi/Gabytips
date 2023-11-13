@@ -1,0 +1,46 @@
+.encabezado {
+    display: flex;
+    gap: 200px;
+    flex-wrap: wrap;
+
+ }
+
+ .lista {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-right: 170px;
+
+}
+
+.Titulo-web {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.parrafo-inicio {
+
+    text-align: center;
+}
+
+.imagen-inicio { 
+
+    max-width: 1000px;
+    margin: 1rem auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    margin: 50px;
+    flex-wrap: wrap;
+    
+ }

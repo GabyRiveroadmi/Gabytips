@@ -1,0 +1,40 @@
+/* seccion tienda*/
+
+.articulos {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.articulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2 rem;
+   
+}
+
+.titulo_articulo {
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif; 
+}
+
+.precio { 
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.boton_articulo { 
+     border: none;
+     background-color: black;
+     color: white;
+     padding: 1rem 2rem;
+     font-weight: bold;
+     cursor: pointer;
+     border-radius: 100px;   
+}
+
