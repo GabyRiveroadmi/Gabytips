@@ -5,13 +5,19 @@
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    
+    display: inline-block;
+    text-align: center;
+    padding: 1rem;
+       
 }
 
 .instagram, .whatsapp { 
     font-size: 1.3rem;
-    background-color: palevioletred;
+    background-color: pink;
     color: black;
     padding: 1rem;
+    margin: 50px 0;
+    vertical-align: middle;
+    display: inline-block;
     
 }
