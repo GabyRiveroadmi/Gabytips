@@ -5,6 +5,7 @@ h1 {
   color: black;
   font-size: 60px;
   display: flex;
+  align-content: center;
 }
 
 p {
@@ -29,6 +30,10 @@ p {
     background-color: beige;
   }
 }
+body {
+  overflow-x: hidden;
+}
+
 .encabezado {
   display: flex;
   grid-template-columns: 20% 50%;
@@ -52,18 +57,20 @@ p {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .parrafo-inicio {
   text-align: center;
+  overflow: hidden;
 }
 
 .imagen-inicio {
-  margin: 1rem auto;
+  margin: auto auto;
   justify-content: center;
   display: flex;
   height: 300px;
-  width: 700px;
+  width: 70%;
 }
 
 .logo {
@@ -72,6 +79,7 @@ p {
   justify-content: center;
   margin: 50px;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 /*formato pages*/
@@ -96,11 +104,14 @@ nav ul li {
   grid-template-columns: 50% 50%;
   grid-template-rows: auto auto;
   border: none;
+  align-items: center;
 }
 
 .imagen_receta {
   width: 95%;
   height: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 /* seccion tienda*/

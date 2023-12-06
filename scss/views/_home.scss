@@ -8,6 +8,7 @@
     border-top:2px solid #ff0080; 
     border-bottom:2px solid #ff0080;
     justify-content: center;
+    
 
  }
 
@@ -24,24 +25,27 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: center;
+     
 
 }
 
 .parrafo-inicio {
 
     text-align: center;
-}
+    overflow: hidden; 
+    }
 
 .imagen-inicio { 
 
-    
-    margin: 1rem auto;
+
+    margin: auto auto;
     justify-content: center;
     display: flex;
     height: 300px;
-    width: 700px; 
+    width: 70%;
    
-}
+    }
 
 .logo{
     width: 150px;
@@ -49,6 +53,6 @@
     justify-content: center;
     margin: 50px;
     flex-wrap: wrap;
-    
- }
+    align-items: center;
+    }
 
